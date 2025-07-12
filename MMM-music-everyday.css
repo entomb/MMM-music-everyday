@@ -1,0 +1,53 @@
+/*
+ *
+ * {{MODULE_NAME}}
+ *
+ * {{AUTHOR_NAME}}
+ * {{LICENSE}} Licensed.
+ *
+ * Custom here your css module
+ *
+ */
+
+.MMM-music-everyday .suggestions-title {
+  float: right;
+  display: block;
+  width: 100%;
+  height: 10px;
+  border-bottom: 1px solid #666;
+}
+.MMM-music-everyday .suggestions-content {
+  float: right;
+  width: 100%;
+  display: block;
+  font-size: 0.5em;
+  margin-top: 8px;
+  text-align: right;
+}
+.MMM-music-everyday {
+  width: 200px;
+}
+
+.MMM-music-everyday div.today {
+  font-size: 2em;
+}
+.MMM-music-everyday div.tomorrow,
+.MMM-music-everyday div.yesterday {
+  font-size: 0.7em;
+  opacity: 0.7;
+}
+.MMM-music-everyday div.before,
+.MMM-music-everyday div.after {
+  font-size: 0.5em;
+  opacity: 0.5;
+}
+.MMM-music-everyday div.today,
+.MMM-music-everyday div.before,
+.MMM-music-everyday div.after,
+.MMM-music-everyday div.tomorrow,
+.MMM-music-everyday div.yesterday {
+  float: right;
+  width: 17%;
+  padding: 1px;
+  text-align: center;
+}
